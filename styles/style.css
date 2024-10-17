@@ -117,12 +117,12 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  outline: 1px solid var(--accent-color);
   cursor: default;
 }
 
 .header__theme-menu-button:hover:not(.header__theme-menu-button_active) {
-  border: 1px solid var(--border-color-opacity);
+  outline: 1px solid var(--border-color-opacity);
 }
 
 .header__theme-menu-button:focus {
@@ -291,7 +291,7 @@
 }
 
 .content__text-block-link:focus-visible {
-  border: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color);
 }
 
 .content__block-title {
