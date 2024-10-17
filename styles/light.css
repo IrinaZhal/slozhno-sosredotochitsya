@@ -49,6 +49,16 @@
   color: var(--subtitle-color);
 }
 
+@media (width >= 1024px) {
+  .header__title {
+    text-shadow: 4px 4px 0 #ff0070;
+  }
+  
+  .footer__title {
+    text-shadow: 2px 2px 0 #ff0070;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --background-image: url(/images/cover-image-light.png);
@@ -90,4 +100,15 @@
   .page.theme_auto .content__title {
     color: var(--subtitle-color);
   }
+  
+  @media (width >= 1024px) {
+    .header__title {
+      text-shadow: 4px 4px 0 #ff0070;
+    }
+    
+    .footer__title {
+      text-shadow: 2px 2px 0 #ff0070;
+    }
+  }
+
 }
